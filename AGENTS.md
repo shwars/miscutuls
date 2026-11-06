@@ -1,0 +1,3 @@
+This folder contains miscellaneous utilities that can be used to make everyday life better. Utilities are grouped somehow by topic, eg. `ycloud` include utilities for Yandex Cloud.
+
+Utilities can take form of python script, or powershell script, or some other form. When you develop an utility, always keep its complete user documentation side-by-side in the corresponding .md file, eg. for aistcli.py, there should be corresponding aistcli.md with documentation alongside it. Keep the track of all utitilies in main README.md file, as well as in README.md in each subdirectory. For python utilities, if any libraries are required, put their list into <utility_name>.requirements.txt alongside the utility .py file.
